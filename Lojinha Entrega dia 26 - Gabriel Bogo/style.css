@@ -1,0 +1,66 @@
+body
+{
+    font: normal 15px Arial;
+}
+
+
+
+/* CABEÇALHO */
+h1
+{
+    text-align: center;
+}
+
+/* IMAGEM */
+img
+{   
+    align-content: center;
+    width: 200px;
+}
+
+
+/* PRODUTOS DA LOJA */
+#produtos
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* PREÇO DOS PRODUTOS */
+#preco
+{   
+   text-align: center;
+}
+
+/* DESCRIÇAO DOS PRODUTOS */
+#descricao
+{
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+/* NOME DOS PRODUTOS */
+h2
+{
+    text-align: center;
+}
+
+/* BORDA DOS PRODUTOS */
+.itenslojinha
+{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 250px;
+    height: 440px;
+    padding-left: 8px;
+    padding-right: 12px;
+    
+    
+}
+
+
+
+
